@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo INSS da Obra</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="content">
+        <form class="form" id="form">
+                <div class="fields-wrapper">
+                    <div class="val">
+                        <label for="val">Valor do m²: </label>
+                        <input autocomplete="off" type="text" name="val" id="val" /> R$
+                    </div>
+                    <div class="area">
+                        <label for="area">Área: </label>
+                        <input autocomplete="off" type="text" name="area" id="area" /> m²
+                    </div>
+                </div>
+                <div class="submit-wrapper">
+                    <input type="submit" value="Calcular" />
+                </div>
+            </form>
+            <div class="results-wrapper">
+                <div>Patronal: <p class="result" id="patronal"></p></div>
+                <div>Segurado: <p class="result" id="segurado"></p></div>
+                <div>RAT: <p class="result" id="rat"></p></div>
+                <div>Outros: <p class="result" id="others"></p></div>
+            </div>
+                
+            <div class="total-wrapper">
+                <div class="total">Total: <p class="result" id="total"></p></div>
+            </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

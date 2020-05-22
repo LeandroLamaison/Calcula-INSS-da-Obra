@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+
+    font-size: 24px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+.content {
+    background-color: white;
+    width: 75%;
+    border-radius: 15px;
+    height: 80vh;
+    margin-top: 10vh;
+    padding: 2.5%;
+    padding-top: 5%;
+}
+
+.fields-wrapper, .submit-wrapper, .results-wrapper, .total-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1%;
+}
+
+.fields-wrapper, .results-wrapper {
+    margin-bottom: 5%;
+}
+
+.submit-wrapper {
+    margin-bottom: 10%;
+}
+
+.submit-wrapper input {
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: bold;
+
+}
+
+.total {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.result {
+    color: darkred;
+}
+
+
+
