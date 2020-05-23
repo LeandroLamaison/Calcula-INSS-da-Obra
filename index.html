@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculo INSS da Obra</title>
+    <title>Calculo INSS Sobre Obra</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="content">
+        <div class="title">Calculo INSS Sobre Obra</div>
         <form class="form" id="form">
                 <div class="fields-wrapper">
                     <div class="val">
-                        <label for="val">Valor do m²: </label>
-                        <input autocomplete="off" type="text" name="val" id="val" /> R$
+                        <label for="val">CUB: </label>
+                        <input autocomplete="off" type="text" name="val" id="val" /> 
+                        <span>R$</span>
                     </div>
                     <div class="area">
                         <label for="area">Área: </label>
-                        <input autocomplete="off" type="text" name="area" id="area" /> m²
+                        <input autocomplete="off" type="text" name="area" id="area" /> 
+                        <span>m²</span>
                     </div>
                 </div>
                 <div class="submit-wrapper">
@@ -33,7 +36,14 @@
             <div class="total-wrapper">
                 <div class="total">Total: <p class="result" id="total"></p></div>
             </div>
+            
     </div>
+
+    <div class="links">
+        <a class="ref" href="https://www.casadicas.com.br/construcao/como-e-feito-o-calculo-do-inss-da-construcao-de-uma-casa.html">Saiba como é feito o cálculo do INSS sobre uma obra</a>
+        <div class="creator">by <a href="https://github.com/LeandroLamaison">Leandro Lamaison</a></div>
+    </div>
+    
 </body>
 <script src="./script.js"></script>
 </html>

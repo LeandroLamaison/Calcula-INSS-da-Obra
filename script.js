@@ -8,13 +8,13 @@ function inssObra() {
 
     
     var result;
-    if(area < 100) {
+    if(area <= 100) {
         result = val * area * 0.04;
     }
-    else if(area < 200) {
+    else if(area <= 200) {
         result = (100 * 0.04  + (area - 100) * 0.08) * val;
     }
-    else if(area < 300) {
+    else if(area <= 300) {
         result = (100 * 0.04 + 100 * 0.08 + (area - 200) * 0.14) * val;
     }
     else {
